@@ -7,13 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    // Do any additional setup after loading the view.
+  @IBOutlet weak var button: UIButton! {
+    didSet {
+      button.addTarget(self, action: #selector(didTapButton(_:)), for: .touchUpInside)
+    }
   }
 
-
+  @objc private func didTapButton(_ sender: UIResponder) {
+    Coordinator.shared.startVC(nowVC: self)
+  }
 }
-

@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		30F24C0D277AFA5100BF7B38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C0C277AFA5100BF7B38 /* AppDelegate.swift */; };
 		30F24C0F277AFA5100BF7B38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C0E277AFA5100BF7B38 /* SceneDelegate.swift */; };
-		30F24C11277AFA5100BF7B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C10277AFA5100BF7B38 /* ViewController.swift */; };
-		30F24C14277AFA5100BF7B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C12277AFA5100BF7B38 /* Main.storyboard */; };
+		30F24C11277AFA5100BF7B38 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C10277AFA5100BF7B38 /* FirstViewController.swift */; };
+		30F24C14277AFA5100BF7B38 /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C12277AFA5100BF7B38 /* First.storyboard */; };
 		30F24C16277AFA5900BF7B38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C15277AFA5900BF7B38 /* Assets.xcassets */; };
 		30F24C19277AFA5900BF7B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C17277AFA5900BF7B38 /* LaunchScreen.storyboard */; };
+		30F24C21277AFB2900BF7B38 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C20277AFB2900BF7B38 /* Coordinator.swift */; };
+		30F24C23277AFD1200BF7B38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C22277AFD1200BF7B38 /* SecondViewController.swift */; };
+		30F24C25277AFD1D00BF7B38 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C24277AFD1D00BF7B38 /* Second.storyboard */; };
+		30F24C27277AFD3D00BF7B38 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C26277AFD3D00BF7B38 /* Third.storyboard */; };
+		30F24C29277AFD4900BF7B38 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C28277AFD4900BF7B38 /* ThirdViewController.swift */; };
+		30F24C2B277B056C00BF7B38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F24C2A277B056C00BF7B38 /* ViewController.swift */; };
+		30F24C2D277B057700BF7B38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F24C2C277B057700BF7B38 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30F24C09277AFA5100BF7B38 /* coordinator-practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coordinator-practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		30F24C0C277AFA5100BF7B38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30F24C0E277AFA5100BF7B38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		30F24C10277AFA5100BF7B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30F24C13277AFA5100BF7B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F24C10277AFA5100BF7B38 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		30F24C13277AFA5100BF7B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/First.storyboard; sourceTree = "<group>"; };
 		30F24C15277AFA5900BF7B38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30F24C18277AFA5900BF7B38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30F24C1A277AFA5900BF7B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F24C20277AFB2900BF7B38 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		30F24C22277AFD1200BF7B38 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		30F24C24277AFD1D00BF7B38 /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		30F24C26277AFD3D00BF7B38 /* Third.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
+		30F24C28277AFD4900BF7B38 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		30F24C2A277B056C00BF7B38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30F24C2C277B057700BF7B38 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +72,18 @@
 			children = (
 				30F24C0C277AFA5100BF7B38 /* AppDelegate.swift */,
 				30F24C0E277AFA5100BF7B38 /* SceneDelegate.swift */,
-				30F24C10277AFA5100BF7B38 /* ViewController.swift */,
-				30F24C12277AFA5100BF7B38 /* Main.storyboard */,
 				30F24C15277AFA5900BF7B38 /* Assets.xcassets */,
 				30F24C17277AFA5900BF7B38 /* LaunchScreen.storyboard */,
 				30F24C1A277AFA5900BF7B38 /* Info.plist */,
+				30F24C20277AFB2900BF7B38 /* Coordinator.swift */,
+				30F24C10277AFA5100BF7B38 /* FirstViewController.swift */,
+				30F24C12277AFA5100BF7B38 /* First.storyboard */,
+				30F24C22277AFD1200BF7B38 /* SecondViewController.swift */,
+				30F24C24277AFD1D00BF7B38 /* Second.storyboard */,
+				30F24C28277AFD4900BF7B38 /* ThirdViewController.swift */,
+				30F24C26277AFD3D00BF7B38 /* Third.storyboard */,
+				30F24C2A277B056C00BF7B38 /* ViewController.swift */,
+				30F24C2C277B057700BF7B38 /* Main.storyboard */,
 			);
 			path = "coordinator-practice";
 			sourceTree = "<group>";
@@ -125,9 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30F24C25277AFD1D00BF7B38 /* Second.storyboard in Resources */,
 				30F24C19277AFA5900BF7B38 /* LaunchScreen.storyboard in Resources */,
 				30F24C16277AFA5900BF7B38 /* Assets.xcassets in Resources */,
-				30F24C14277AFA5100BF7B38 /* Main.storyboard in Resources */,
+				30F24C2D277B057700BF7B38 /* Main.storyboard in Resources */,
+				30F24C14277AFA5100BF7B38 /* First.storyboard in Resources */,
+				30F24C27277AFD3D00BF7B38 /* Third.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +162,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30F24C11277AFA5100BF7B38 /* ViewController.swift in Sources */,
+				30F24C21277AFB2900BF7B38 /* Coordinator.swift in Sources */,
+				30F24C11277AFA5100BF7B38 /* FirstViewController.swift in Sources */,
 				30F24C0D277AFA5100BF7B38 /* AppDelegate.swift in Sources */,
+				30F24C23277AFD1200BF7B38 /* SecondViewController.swift in Sources */,
+				30F24C2B277B056C00BF7B38 /* ViewController.swift in Sources */,
+				30F24C29277AFD4900BF7B38 /* ThirdViewController.swift in Sources */,
 				30F24C0F277AFA5100BF7B38 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,12 +175,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30F24C12277AFA5100BF7B38 /* Main.storyboard */ = {
+		30F24C12277AFA5100BF7B38 /* First.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				30F24C13277AFA5100BF7B38 /* Base */,
 			);
-			name = Main.storyboard;
+			name = First.storyboard;
 			sourceTree = "<group>";
 		};
 		30F24C17277AFA5900BF7B38 /* LaunchScreen.storyboard */ = {
